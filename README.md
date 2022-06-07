@@ -1,55 +1,56 @@
-���Ǹ�����SSM+Bootstrap�Ľ����ѯϵͳ����һ���򵥵Ľ����ѯϵͳ.
+这是个基于SSM+Bootstrap的教务查询系统，是一个简单的教务查询系统.
 
-��Ŀ��������¼���ںš�java��ĿԴ�롿����Ҫ�����й�עһ�¹��ںŲ�����Դ��
 
-![���ںŶ�ά��](./���н�ͼ/wechat.png)
+CSDN博客地址：https://blog.csdn.net/m0_47220500/article/details/125134977
 
-IOC������Spring ��ܣ�SpringMVC<br>
-ORM��ܣ�Mybatis<br>
-����Դ��C3P0<br>
-��־��log4j<br>
-ǰ�˿�ܣ�Bootstrap<br>
-���л��� jdk+tomcat+mysql+idea(eclipse)+maven<br>
-��Ŀ������ spring+spring mvc+mybatis+bootstrap+jquery<br>
+B站运行视频：https://www.bilibili.com/video/BV1FZ4y1t7tc
 
-��ϵͳ��Ϊ����Ȩ�ޣ�<br>
-1.����Ա�����Թ�������ѧ���ͽ�ʦ�Ļ�����Ϣ�ȵ�<br>
-2.��ʦ�����Թ�������ѧ���ȵ�<br>
-3.ѧ�����鿴�����Լ�����Ϣ�Լ���Ӧ�γ̵ȵ�<br>
+项目下载地址：http://shiyuncode.com/details?id=12
 
-CSDN���͵�ַ��[����SSM+Bootstrap�Ľ����ѯϵͳ](https://blog.csdn.net/mataodehtml/article/details/111980405)
 
-������Ƶ��ַ��[����SSM+Bootstrap�Ľ����ѯϵͳ](https://www.bilibili.com/video/BV1pz4y167Ut)
 
-���н�ͼ��
+IOC容器：Spring 框架：SpringMVC<br>
+ORM框架：Mybatis<br>
+数据源：C3P0<br>
+日志：log4j<br>
+前端框架：Bootstrap<br>
+运行环境 jdk+tomcat+mysql+idea(eclipse)+maven<br>
+项目技术： spring+spring mvc+mybatis+bootstrap+jquery<br>
 
-����Ա��
+本系统分为三种权限：<br>
+1.管理员：可以管理所有学生和教师的基本信息等等<br>
+2.教师：可以管理所有学生等等<br>
+3.学生：查看各种自己的信息以及对应课程等等<br>
 
-![�޸��Լ�����](./���н�ͼ/����Ա/�޸��Լ�����.png)
+运行截图：
 
-![ѧ���б�����ɾ�Ĳ飩](./���н�ͼ/����Ա/ѧ���б�����ɾ�Ĳ飩.png)
+管理员：
 
-![��ʦ�б�����ɾ�Ĳ飩](./���н�ͼ/����Ա/��ʦ�б�����ɾ�Ĳ飩.png)
+![修改自己密码](./运行截图/管理员/修改自己密码.png)
 
-![�γ��б�����ɾ�Ĳ飩](./���н�ͼ/����Ա/�γ��б�����ɾ�Ĳ飩.png)
+![学生列表（增删改查）](./运行截图/管理员/学生列表（增删改查）.png)
 
-![���������˺�����](./���н�ͼ/����Ա/���������˺�����.png)
+![教师列表（增删改查）](./运行截图/管理员/教师列表（增删改查）.png)
 
-��ʦ��
+![课程列表（增删改查）](./运行截图/管理员/课程列表（增删改查）.png)
 
-![�޸�����](./���н�ͼ/��ʦ/�޸�����.png)
+![重置其他账号密码](./运行截图/管理员/重置其他账号密码.png)
 
-![�鿴�ҵĿγ�](./���н�ͼ/��ʦ/�鿴�ҵĿγ�.png)
+教师：
 
-![�鿴�γ��¶�Ӧѧ���ĳɼ������](./���н�ͼ/��ʦ/�鿴�γ��¶�Ӧѧ���ĳɼ������.png)
+![修改密码](./运行截图/教师/修改密码.png)
 
-ѧ����
+![查看我的课程](./运行截图/教师/查看我的课程.png)
 
-![�޸�����](./���н�ͼ/ѧ��/�޸�����.png)
+![查看课程下对应学生的成绩并打分](./运行截图/教师/查看课程下对应学生的成绩并打分.png)
 
-![�鿴���޿γ̼��ɼ�](./���н�ͼ/ѧ��/�鿴���޿γ̼��ɼ�.png)
+学生：
 
-![�鿴��ѡ�γ̲��˿�](./���н�ͼ/ѧ��/�鿴��ѡ�γ̲��˿�.png)
+![修改密码](./运行截图/学生/修改密码.png)
 
-![�鿴���пγ̲�ѡ��](./���н�ͼ/ѧ��/�鿴���пγ̲�ѡ��.png)
+![查看已修课程及成绩](./运行截图/学生/查看已修课程及成绩.png)
+
+![查看已选课程并退课](./运行截图/学生/查看已选课程并退课.png)
+
+![查看所有课程并选课](./运行截图/学生/查看所有课程并选课.png)
 
